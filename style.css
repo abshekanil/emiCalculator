@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    
+}
+.container{
+    width: 30%;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+h1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+label{
+    font-family: cursive;
+    font-weight: bold;
+}
+p{
+    font-family: cursive;
+    font-weight: bold;
+}
+input{
+    padding: 5px;
+    font-size: 18px;
+}
+#calculate{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: slateblue;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: cursive;
+}
+#calculate:hover{
+    opacity: 0.8;
+}
